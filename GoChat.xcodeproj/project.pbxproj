@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4459292C533BCCCCCBFF2185 /* Pods_GoChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B8B97E93C1F42E2252CFE5 /* Pods_GoChat.framework */; };
+		F009F811204DBF7D007C0990 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009F810204DBF7D007C0990 /* ChatModel.swift */; };
 		F015530420354349003E4080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015530320354349003E4080 /* AppDelegate.swift */; };
-		F015530620354349003E4080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015530520354349003E4080 /* ViewController.swift */; };
 		F015530920354349003E4080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F015530720354349003E4080 /* Main.storyboard */; };
 		F015530B20354349003E4080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F015530A20354349003E4080 /* Assets.xcassets */; };
 		F015530E20354349003E4080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F015530C20354349003E4080 /* LaunchScreen.storyboard */; };
+		F015531620354459003E4080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015531520354459003E4080 /* LoginViewController.swift */; };
+		F015531C20356D4F003E4080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F015531B20356D4F003E4080 /* GoogleService-Info.plist */; };
+		F0ACA79D205F7D0900B492FF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACA79C205F7D0900B492FF /* CustomButton.swift */; };
+		F0CED44D20357DF300E33568 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CED44C20357DF300E33568 /* Helper.swift */; };
+		F0FA650E203978DB00CE5706 /* InsertNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */; };
+		F0FA65182039F65E00CE5706 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */; };
+		F0FA651A203BF16800CE5706 /* NewChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA6519203BF16800CE5706 /* NewChannelTableViewCell.swift */; };
+		F0FA651C203D3AEC00CE5706 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */; };
+		F0FA651E203D3BEB00CE5706 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA651D203D3BEB00CE5706 /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F69415FD36A4F7B17C45045 /* Pods-GoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoChat/Pods-GoChat.release.xcconfig"; sourceTree = "<group>"; };
+		B651847E4E1F7DA8354A5044 /* Pods-GoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoChat/Pods-GoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B8B97E93C1F42E2252CFE5 /* Pods_GoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F009F810204DBF7D007C0990 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		F015530020354349003E4080 /* GoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F015530320354349003E4080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F015530520354349003E4080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F015530820354349003E4080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F015530A20354349003E4080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F015530D20354349003E4080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F015530F20354349003E4080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F015531520354459003E4080 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F015531B20356D4F003E4080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0ACA79C205F7D0900B492FF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F0CED44C20357DF300E33568 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameViewController.swift; sourceTree = "<group>"; };
+		F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		F0FA6519203BF16800CE5706 /* NewChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChannelTableViewCell.swift; sourceTree = "<group>"; };
+		F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		F0FA651D203D3BEB00CE5706 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4459292C533BCCCCCBFF2185 /* Pods_GoChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FFCB9D327C2CC9DF491885D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8B97E93C1F42E2252CFE5 /* Pods_GoChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CD124844F9AE3B46439CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B651847E4E1F7DA8354A5044 /* Pods-GoChat.debug.xcconfig */,
+				6F69415FD36A4F7B17C45045 /* Pods-GoChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F01552F720354349003E4080 = {
 			isa = PBXGroup;
 			children = (
 				F015530220354349003E4080 /* GoChat */,
 				F015530120354349003E4080 /* Products */,
+				83CD124844F9AE3B46439CE0 /* Pods */,
+				5FFCB9D327C2CC9DF491885D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +97,20 @@
 			isa = PBXGroup;
 			children = (
 				F015530320354349003E4080 /* AppDelegate.swift */,
-				F015530520354349003E4080 /* ViewController.swift */,
 				F015530720354349003E4080 /* Main.storyboard */,
+				F015531520354459003E4080 /* LoginViewController.swift */,
+				F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */,
+				F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */,
+				F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */,
+				F009F810204DBF7D007C0990 /* ChatModel.swift */,
 				F015530A20354349003E4080 /* Assets.xcassets */,
 				F015530C20354349003E4080 /* LaunchScreen.storyboard */,
+				F015531B20356D4F003E4080 /* GoogleService-Info.plist */,
 				F015530F20354349003E4080 /* Info.plist */,
+				F0ACA79C205F7D0900B492FF /* CustomButton.swift */,
+				F0CED44C20357DF300E33568 /* Helper.swift */,
+				F0FA6519203BF16800CE5706 /* NewChannelTableViewCell.swift */,
+				F0FA651D203D3BEB00CE5706 /* ChatTableViewCell.swift */,
 			);
 			path = GoChat;
 			sourceTree = "<group>";
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F015531220354349003E4080 /* Build configuration list for PBXNativeTarget "GoChat" */;
 			buildPhases = (
+				D3804FF59ABBEB3C06D8353E /* [CP] Check Pods Manifest.lock */,
 				F01552FC20354349003E4080 /* Sources */,
 				F01552FD20354349003E4080 /* Frameworks */,
 				F01552FE20354349003E4080 /* Resources */,
+				4F5ABBA250D0170CAEF1C864 /* [CP] Embed Pods Frameworks */,
+				E416F7D068B5F21C023CCB1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +145,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Muhammad Iqbal";
 				TargetAttributes = {
 					F01552FF20354349003E4080 = {
@@ -124,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F015530E20354349003E4080 /* LaunchScreen.storyboard in Resources */,
+				F015531C20356D4F003E4080 /* GoogleService-Info.plist in Resources */,
 				F015530B20354349003E4080 /* Assets.xcassets in Resources */,
 				F015530920354349003E4080 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +186,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F5ABBA250D0170CAEF1C864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoChat/Pods-GoChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+Cache/UITableView_Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoChat/Pods-GoChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3804FF59ABBEB3C06D8353E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E416F7D068B5F21C023CCB1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoChat/Pods-GoChat-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoChat/Pods-GoChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F01552FC20354349003E4080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F015530620354349003E4080 /* ViewController.swift in Sources */,
+				F0FA651A203BF16800CE5706 /* NewChannelTableViewCell.swift in Sources */,
+				F0FA65182039F65E00CE5706 /* ChannelListViewController.swift in Sources */,
+				F0FA650E203978DB00CE5706 /* InsertNameViewController.swift in Sources */,
+				F0FA651E203D3BEB00CE5706 /* ChatTableViewCell.swift in Sources */,
+				F015531620354459003E4080 /* LoginViewController.swift in Sources */,
+				F009F811204DBF7D007C0990 /* ChatModel.swift in Sources */,
+				F0ACA79D205F7D0900B492FF /* CustomButton.swift in Sources */,
 				F015530420354349003E4080 /* AppDelegate.swift in Sources */,
+				F0CED44D20357DF300E33568 /* Helper.swift in Sources */,
+				F0FA651C203D3AEC00CE5706 /* NewChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +315,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +323,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +374,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +382,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,10 +414,13 @@
 		};
 		F015531320354349003E4080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B651847E4E1F7DA8354A5044 /* Pods-GoChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33XSSTPS64;
 				INFOPLIST_FILE = GoChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cl.GoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +431,13 @@
 		};
 		F015531420354349003E4080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F69415FD36A4F7B17C45045 /* Pods-GoChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33XSSTPS64;
 				INFOPLIST_FILE = GoChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cl.GoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
