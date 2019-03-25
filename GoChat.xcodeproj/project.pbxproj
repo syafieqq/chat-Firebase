@@ -18,7 +18,6 @@
 		F0ACA79D205F7D0900B492FF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ACA79C205F7D0900B492FF /* CustomButton.swift */; };
 		F0CED44D20357DF300E33568 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CED44C20357DF300E33568 /* Helper.swift */; };
 		F0FA650E203978DB00CE5706 /* InsertNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */; };
-		F0FA65182039F65E00CE5706 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */; };
 		F0FA651A203BF16800CE5706 /* NewChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA6519203BF16800CE5706 /* NewChannelTableViewCell.swift */; };
 		F0FA651C203D3AEC00CE5706 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */; };
 		F0FA651E203D3BEB00CE5706 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA651D203D3BEB00CE5706 /* ChatTableViewCell.swift */; };
@@ -40,7 +39,6 @@
 		F0ACA79C205F7D0900B492FF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F0CED44C20357DF300E33568 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameViewController.swift; sourceTree = "<group>"; };
-		F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
 		F0FA6519203BF16800CE5706 /* NewChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChannelTableViewCell.swift; sourceTree = "<group>"; };
 		F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
 		F0FA651D203D3BEB00CE5706 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				F015530720354349003E4080 /* Main.storyboard */,
 				F015531520354459003E4080 /* LoginViewController.swift */,
 				F0FA650D203978DB00CE5706 /* InsertNameViewController.swift */,
-				F0FA65172039F65E00CE5706 /* ChannelListViewController.swift */,
 				F0FA651B203D3AEC00CE5706 /* NewChatViewController.swift */,
 				F009F810204DBF7D007C0990 /* ChatModel.swift */,
 				F015530A20354349003E4080 /* Assets.xcassets */,
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0FA651A203BF16800CE5706 /* NewChannelTableViewCell.swift in Sources */,
-				F0FA65182039F65E00CE5706 /* ChannelListViewController.swift in Sources */,
 				F0FA650E203978DB00CE5706 /* InsertNameViewController.swift in Sources */,
 				F0FA651E203D3BEB00CE5706 /* ChatTableViewCell.swift in Sources */,
 				F015531620354459003E4080 /* LoginViewController.swift in Sources */,
